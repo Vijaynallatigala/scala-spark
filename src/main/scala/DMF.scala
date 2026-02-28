@@ -11,7 +11,7 @@ object DMF {
     print("helloworld")
 
     val spark = SparkSession.builder()
-      .appName("sparkapplication")
+      .appName("sparkapplications")
       .master("local[*]")
       .getOrCreate()
 
